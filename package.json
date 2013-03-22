@@ -1,5 +1,6 @@
 {
     "name": "csv-logs-to-json",
+    "version": "0.1.0",
     "description": "Logs format conversion tool (CSV to JSON).",
     "author": {
         "name" : "Guillaume Charmetant",
@@ -9,5 +10,6 @@
     "dependencies": {
         "underscore": "~1",
         "csv": "~0"
-    }
+    },
+    "bin": { "cltj": "csv-logs-to-json.js" }
 }
